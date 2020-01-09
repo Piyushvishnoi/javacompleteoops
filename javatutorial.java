@@ -1,18 +1,13 @@
-package tutorial;
-class Aman
-{
-	Aman()
-	{
-		System.out.println("in A");
-	}
-}
+package firstoneinjava;
 
 public class javatutorial {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println("hi I am first one in java program");
-Aman a=new Aman();
+System.out.println("In main"+ "function");
+int i=2;
+System.out.println(i);
+Integer j=new Integer(5);
+System.out.println(j + " using data types as integers");
 	}
 
 }
