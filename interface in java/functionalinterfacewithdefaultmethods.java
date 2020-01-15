@@ -1,5 +1,5 @@
 package tutorial;
-//interface can also have method definitions with default keyword
+//interface can also have method definitions with default keyword ....
 interface fid
 {
 	void show();
