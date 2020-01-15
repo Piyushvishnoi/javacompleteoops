@@ -1,5 +1,5 @@
 package thread;
-class Hi extends Thread
+class Hi extends Thread // using extending thread method
 {
 	public void run()
 	{
