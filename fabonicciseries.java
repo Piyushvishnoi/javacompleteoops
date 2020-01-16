@@ -18,7 +18,7 @@ public class fabonicciseries {
 		no1=no2;
 		no2=c;
 	}
-	
+	s.close(); //closing the resources
 
 	}
 
