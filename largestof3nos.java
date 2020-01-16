@@ -22,7 +22,7 @@ public class largestof3nos {
 		else
 			System.out.println(no3 + "is largest");
 	}
-
+s.close(); //closing the resources
 	}
 
 }
