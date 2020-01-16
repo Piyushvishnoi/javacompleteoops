@@ -1,7 +1,7 @@
 package tutorial;
 abstract class first1
 {
-	public abstract void eat();
+	public abstract void eat(); //abstract methods must be defined in inherited class
 }
 class second extends first1
 {
