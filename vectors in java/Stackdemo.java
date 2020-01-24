@@ -1,5 +1,6 @@
 package linkedlistjava;
-
+//Stack is a subclass of vectors that implements a standard last-in first-out concept
+//Stack only defines the default constructor ,which creates an empty stack.
 import java.util.Stack;
 
 public class Stackdemo {
