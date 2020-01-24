@@ -1,5 +1,6 @@
 package linkedlistjava;
-
+//Vectors are actually implementation of dynamic arrays i.e if we don't know the size of array that we have to used,
+//then we can use vectors.
 import java.util.Vector;
 
 public class vectordemo {
