@@ -1,4 +1,6 @@
 package linkedlistjava;
+//array list uses a dynamic array while linked list uses doubly linked list concept.
+//in linked list we can use list as well as queues.
 		import java.util.*;    
 		class arraylistvslinkedlist{    
 		 public static void main(String args[]){    
