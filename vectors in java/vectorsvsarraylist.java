@@ -22,7 +22,7 @@ Vector <Integer> obj1=new Vector();
 obj1.add(1);
 obj1.add(2);
 System.out.println(obj1);
-Enumeration <Integer> en= obj1.elements();
+Enumeration <Integer> en= obj1.elements(); //Enumeration and iterator are used for traversal of elements in vector
 while(en.hasMoreElements())
 {
 	System.out.println(en.nextElement());   //we can use iterator and enumeration in vector
