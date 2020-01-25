@@ -5,19 +5,19 @@
 class stringvsstringbuildervsstringbuffer
 { 
     // Concatenates to String 
-    public static void concat1(String s1) 
+    public static void concat1(String s1)  //use of string
     { 
         s1 = s1 + "forgeeks"; 
     } 
   
     // Concatenates to StringBuilder 
-    public static void concat2(StringBuilder s2) 
+    public static void concat2(StringBuilder s2) //use oif stringbuilder
     { 
         s2.append("Vishnoi"); 
     } 
   
     // Concatenates to StringBuffer 
-    public static void concat3(StringBuffer s3) 
+    public static void concat3(StringBuffer s3) //use of stringbuffer
     { 
         s3.append("Vishnoi"); 
     } 
