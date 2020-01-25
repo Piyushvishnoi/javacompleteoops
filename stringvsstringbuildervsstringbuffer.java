@@ -1,5 +1,7 @@
 
-
+//If a string is going to remain constant throughout the program, then use String class object because a String object is immutable.
+//If a string can change and will only be accessed from a single thread, using a StringBuilder is good enough.
+//If a string can change, and will be accessed from multiple threads, use a StringBuffer because StringBuffer is synchronous so you have thread-safety.
 class stringvsstringbuildervsstringbuffer
 { 
     // Concatenates to String 
