@@ -1,7 +1,7 @@
 //Immutable class is that when once object got created for a class , its value can't be changed
 //Immutable class can be created by using final keyword
  //In Java, all the wrapper classes (like Integer, Boolean, Byte, Short) and String class is immutable.
-public final class Student 
+public final class Student   //use of final class
 { 
     final String name; 
     final int regNo; 
