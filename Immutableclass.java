@@ -3,7 +3,7 @@
  //In Java, all the wrapper classes (like Integer, Boolean, Byte, Short) and String class is immutable.
 public final class Student   //use of final class
 { 
-    final String name; 
+    final String name;   //use of final data member
     final int regNo; 
   
     public Student(String name, int regNo) 
@@ -11,7 +11,7 @@ public final class Student   //use of final class
         this.name = name; 
         this.regNo = regNo; 
     } 
-    public String getName() 
+    public String getName()  //no setters only getters in immutable classes
     { 
         return name; 
     } 
