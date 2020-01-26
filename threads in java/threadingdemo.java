@@ -1,5 +1,8 @@
 package thread;
-class Hi extends Thread // using extending thread method
+//There are two ways to create a thread:
+//By extending Thread class
+//By implementing Runnable interface.
+class Hi extends Thread    // using extending thread method
 {
 	public void run()
 	{
