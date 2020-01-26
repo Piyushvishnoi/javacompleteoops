@@ -31,7 +31,8 @@ class stringvsstringbuildervsstringbuffer
         StringBuilder s2 = new StringBuilder("Piyush"); 
         concat2(s2); // s2 is changed 
         System.out.println("StringBuilder: " + s2); 
-  
+  // StringBuffer is similar to StringBuilder except one difference that StringBuffer is thread safe,
+ //multiple threads can use it without any issue. The thread safety brings a penalty of performance.
         StringBuffer s3 = new StringBuffer("Vishnoi"); 
         concat3(s3); // s3 is changed 
         System.out.println("StringBuffer: " + s3); 
