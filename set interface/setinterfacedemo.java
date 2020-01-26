@@ -1,5 +1,5 @@
 package setinterface;
-
+//List allows duplicates while Set doesn’t allow duplicate elements
 import java.util.HashSet;
 import java.util.Set;
 
