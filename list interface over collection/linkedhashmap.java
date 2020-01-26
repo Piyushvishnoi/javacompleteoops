@@ -1,5 +1,6 @@
 package setinterface;
 //LinkedHashMap is a Hash table and linked list implementation of the Map interface, with predictable iteration order.
+//This implementation differs from HashMap in that it maintains a doubly-linked list running through all of its entries. 
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
