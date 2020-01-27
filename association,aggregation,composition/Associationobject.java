@@ -1,5 +1,6 @@
 package associationaggregationcomposition;
 //Association is relation between two separate classes which establishes through their Objects
+//In Object-Oriented programming, an Object communicates to other Object to use functionality and services provided by that object.
 class A
 { private String name;
 	A(String name)
