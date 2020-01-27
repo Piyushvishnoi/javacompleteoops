@@ -1,5 +1,8 @@
 package associationaggregationcomposition;
-
+//Aggregation is a special form of Association where:
+//Aggregation represents Has-A relationship.
+//Aggregation is a unidirectional association i.e. a one way relationship.
+//In Aggregation, both the entries can survive individually which means ending one entity will not effect the other entity
 import java.util.ArrayList;
 import java.util.List;
 
@@ -68,6 +71,7 @@ List<Bb> obj8=new ArrayList <>();
 obj8.add(obj6);
 obj8.add(obj7);
 Cc objc=new Cc("For class Cc",obj8);
+		//creating instance of class Cc
 System.out.println("total in C");
 System.out.println(objc.getnoofstudents());
 	}
