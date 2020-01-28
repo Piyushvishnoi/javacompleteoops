@@ -20,7 +20,7 @@ class Aa
 	public static Aa getinstance()
 	{
 		System.out.println("lazy initialization,at the time of calling");
-		obj=new Aa();
+		obj=new Aa();  //Lazy initialization of object at the time of calling getinstance function
 		return obj;
 	}
 }
