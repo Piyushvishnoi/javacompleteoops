@@ -16,8 +16,8 @@ public class singletondesignpattern {
 }
 class A
 {
-	static A obj=new A();
-	private A()
+	static A obj=new A(); //creation of static object i.e static instance of class
+	private A(). //making default constructor as private
 	{
 		System.out.println("In class A default private constructor");
 	}
