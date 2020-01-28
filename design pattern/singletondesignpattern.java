@@ -1,4 +1,5 @@
 package designpatterninjava;
+//EAGER INITIALIZATION OF OBJECT
 //eager initialization
 //for singleton class,we have to do three things:
 //1:create static instance of that class
@@ -15,7 +16,7 @@ public class singletondesignpattern {
 
 }
 class A
-{
+{ //Eagerly initiated class
 	static A obj=new A(); //creation of static object i.e static instance of class
 	private A(). //making default constructor as private
 	{
