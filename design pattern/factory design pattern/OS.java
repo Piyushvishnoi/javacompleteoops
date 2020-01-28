@@ -1,5 +1,5 @@
 package com.phone;
 
-public interface OS {
+public interface OS {.  //interface creation
 public void specs();
 }
