@@ -20,7 +20,8 @@ class Aa
 	public static Aa getinstance()
 	{
 		System.out.println("lazy initialization,at the time of calling");
-		obj=new Aa();
+		if(obj==null) // this if will make sure that only one instace got created
+		{obj=new Aa();} 
 		return obj;
 	}
 }
