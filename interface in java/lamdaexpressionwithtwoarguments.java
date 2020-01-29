@@ -1,4 +1,4 @@
-
+//A Java program to demonstrate working of lambda expression with two arguments
 public class lamdaexpressionwithtwoarguments 
 { 
     // operation is implemented using lambda expressions 
