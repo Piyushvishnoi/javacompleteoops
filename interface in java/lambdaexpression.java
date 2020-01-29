@@ -1,4 +1,7 @@
-
+//Lambda expressions basically express instances of functional interfaces
+//Enable to treat functionality as a method argument, or code as data.
+//A function that can be created without belonging to any class.
+//A lambda expression can be passed around as if it was an object and executed on demand.
 interface FuncInterface 
 { 
     // An abstract function 
