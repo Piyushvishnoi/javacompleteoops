@@ -1,5 +1,5 @@
 import java.util.Hashtable;
-
+//contain method used to check whether a particular value is being mapped by any keys present in the Hashtable.
 public class useofcontain {
 
 	public static void main(String[] args) {
@@ -26,6 +26,7 @@ public class useofcontain {
   
         // checking hash table h 
         System.out.println("after clearing: " + h); 
+		//using contain method of Hashtable
 System.out.println("Contains Khushi: " + h.contains("Khushi")); //use of contain method
 
 	}
