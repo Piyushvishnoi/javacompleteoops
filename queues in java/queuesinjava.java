@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
-
+//queues is an ordered list of objects with its use limited to insert elements at the end of the list and deleting elements from the start of list
 //queue is an interface which even can be implemented by LINKEDLIST
 public class queuesinjava {
 
