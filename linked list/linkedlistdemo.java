@@ -1,4 +1,5 @@
 package linkedlistjava;
+//Linked list Used to create a ordered list which contains all the elements of a specified collection, as returned by the collection’s iterator.
 //in java linked list can have duplicate items
 //there is no synchronization in linked list
 import java.util.Iterator;
