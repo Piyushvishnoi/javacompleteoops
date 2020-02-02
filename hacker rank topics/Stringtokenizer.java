@@ -1,5 +1,6 @@
 import java.util.StringTokenizer;
 ////A StringTokenizer object internally maintains a current position within the string to be tokenized.
+//StringTokenizer class in Java is used to break a string into tokens.
 //A token is returned by taking a substring of the string that was used to create the StringTokenizer object.
 public class Stringtokenizer {
 
