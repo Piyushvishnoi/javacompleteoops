@@ -1,6 +1,7 @@
 ////anagrams in java are those two strings which have same characters in number but it can be in different order
 //eg: listen silent
 //eg: integral Triangle
+//eg:cat tac
 //import java.io.*; 
 import java.util.Arrays; 
 //import java.util.Collections; 
