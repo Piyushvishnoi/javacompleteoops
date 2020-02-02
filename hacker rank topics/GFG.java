@@ -1,4 +1,5 @@
-////anagrams in java are those two strings which have same characters in number but it can be in different order
+// anagram is a word which is formed by rearranging or shuffling of letters in another word.
+//the most important property in Anagram is that all the letters have to be used only once.
 //eg: listen silent
 //eg: integral Triangle
 //eg:cat tac
