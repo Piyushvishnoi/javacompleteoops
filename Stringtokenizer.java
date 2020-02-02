@@ -1,5 +1,5 @@
 import java.util.StringTokenizer;
-//
+//A StringTokenizer object internally maintains a current position within the string to be tokenized. 
 public class Stringtokenizer {
 
 	public static void main(String[] args) {
