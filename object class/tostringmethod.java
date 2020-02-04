@@ -1,3 +1,4 @@
+//toString() provides String representation of an Object and used to convert an object to String
 package objectclass;
 
 public class tostringmethod {
