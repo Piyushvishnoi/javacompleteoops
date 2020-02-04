@@ -1,5 +1,4 @@
 //Returns the class object of “this” object and used to get actual runtime class of the object.
-
 package objectclass;
 
 public class getclassmethod 
