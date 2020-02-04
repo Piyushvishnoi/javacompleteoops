@@ -1,3 +1,5 @@
+//This method is called just before an object is garbage collected.
+//It is called by the Garbage Collector on an object when garbage collector determines that there are no more references to the object.
 package objectclass;
 
 public class finalizemethod {
