@@ -1,3 +1,4 @@
+//For every object, JVM generates a unique number which is hashcode. It returns distinct integers for distinct objects
 package objectclass;
 
 public class hashcodemethod {
