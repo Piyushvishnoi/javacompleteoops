@@ -9,6 +9,7 @@ public class bigdecimalclass {
 		double b=0.04;
 		double c=b-a;
 		System.out.println(c);
+		//advantage of bigdecimal over double is that it will give more accurate result
 		BigDecimal a1=new BigDecimal("0.03");
 		BigDecimal b1=new BigDecimal("0.04");
 		BigDecimal c1=b1.subtract(a1);
