@@ -1,5 +1,5 @@
 package hackerranktopics;
-
+//BigDecimal can handle very large and very small floating point numbers with great precision but compensating with the time complexity a bit.
 import java.math.BigDecimal;
 
 public class bigdecimalclass {
