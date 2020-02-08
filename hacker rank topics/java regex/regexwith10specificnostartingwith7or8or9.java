@@ -1,5 +1,5 @@
 package hackerranktopics;
-
+//restrictions on expression 
 import java.util.regex.Pattern;
 
 public class regexwith10specificnostartingwith7or8or9 {
