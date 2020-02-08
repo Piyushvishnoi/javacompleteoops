@@ -1,5 +1,5 @@
 package javaconversion;
-
+// we can use Integer.valueOf() method which returns instance of Integer class.
 //Java Program to demonstrate the conversion of String into int  
 //using Integer.parseInt() method  
 public class stringtoint{  
