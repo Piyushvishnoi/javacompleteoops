@@ -1,5 +1,5 @@
 package hackerranktopics;
-//The Java Regex or Regular Expression is an API to define a pattern for searching or manipulating strings.
+//The Java Regex or Regular Expression is an API to define a pattern for searching or manipulating strings. regex means regular expression which we used in our daily progamming concepts
 //many ways to implement regex
 import java.util.regex.*;
 
