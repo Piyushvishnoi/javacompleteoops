@@ -1,5 +1,5 @@
 package hackerranktopics;
-
+//how to get a subarray of some particualar index of a particular array
 import java.util.Arrays;
 public class subarrayinjava {
    public static void main(String[] args) {
