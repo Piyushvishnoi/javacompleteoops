@@ -1,5 +1,7 @@
 package hackerranktopics;
 //The java.util.Deque interface is a subtype of the java.util.Queue interface. 
+//The Deque is related to the double-ended queue that supports addition or removal of elements from either end of the data structure, it can be used as a queue (first-in-first-out/FIFO) or as a stack (last-in-first-out/LIFO). 
+//These are faster than Stack and LinkedList.
 import java.util.*; 
 
 public class javadequeue 
