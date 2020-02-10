@@ -1,5 +1,5 @@
 package hackerranktopics;
-
+//The java.util.Deque interface is a subtype of the java.util.Queue interface. 
 import java.util.*; 
 
 public class javadequeue 
