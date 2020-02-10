@@ -1,5 +1,5 @@
 package hackerranktopics;
-
+//instanceof is a keyword that is used for checking if a reference variable is containing a given type of object reference or not.
 //relationship 
 class Parent {  } 
 class Child extends Parent { } 
