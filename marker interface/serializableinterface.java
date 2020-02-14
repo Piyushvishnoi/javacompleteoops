@@ -4,7 +4,7 @@ import java.io.*;
 //By implementing Serializable interface 
 //we make sure that state of instances of class A 
 //can be saved in a file. 
-class Aa implements Serializable 
+class Aa implements Serializable  //implementing serializable interface
 { 
  int i; 
  String s; 
