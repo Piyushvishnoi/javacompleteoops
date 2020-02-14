@@ -5,7 +5,7 @@ import java.lang.Cloneable;
 //By implementing Cloneable interface 
 //we make sure that instances of class A 
 //can be cloned. 
-class A implements Cloneable 
+class A implements Cloneable  //implementing cloneable interface
 { 
  int i; 
  String s; 
