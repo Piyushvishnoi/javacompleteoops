@@ -55,7 +55,7 @@ public class ques4 {
 			obj=new urgenttrunkcall();
 			break;
 		default:
-			System.out.println("It was not a trunk call");
+			System.out.println("It was not a trunk call"); //default case is good for user understanding
 		}
 
 	}
