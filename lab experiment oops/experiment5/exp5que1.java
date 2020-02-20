@@ -1,11 +1,11 @@
 package javalabexp;
 import java.util.Scanner;
 interface test{
-	void square(Integer number);
+	void square(Integer number);   //by default square is abstract
 }
 class arithmetic implements test
 { public Integer number;
-	 public void square(Integer number)
+	 public void square(Integer number).  //definition of abstract function
 	{
 		System.out.println("Square of number is: "+number*number);
 	}
