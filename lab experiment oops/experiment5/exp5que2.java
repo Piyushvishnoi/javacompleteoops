@@ -2,15 +2,15 @@ package javalabexp;
 import java.util.Scanner;
 interface A
 {
-	void method1();
+	void method1(); //these methods are abstract by default
 	void method2();
 }
-class MyClass implements A
+class MyClass implements A. //implementing interface A
 {
-	public void method1()
+	public void method1()  //definition given to abstract methods
 	{
 	System.out.println("method 1 defines addition function");
-Scanner s=new Scanner(System.in);
+Scanner s=new Scanner(System.in);     //object of scanner class
 System.out.println("Enter two numbers a and b for addition:");
 Integer a=s.nextInt();
 Integer b=s.nextInt();
