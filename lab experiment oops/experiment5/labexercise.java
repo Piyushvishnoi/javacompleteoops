@@ -11,11 +11,11 @@ class demo1
 	System.out.println("Enter name: ");
 		name=s.nextLine();
 		}
-	static Integer toreturncount()
+	static Integer toreturncount()  //returning count of objects
 	{ count++;
 		return count;
 	}
-	static String gender()
+	static String gender()   //returning gender
 	{ System.out.println("Enter gender:1: male 2:female");
 	Scanner s=new Scanner(System.in);
 	String g=s.nextLine();
