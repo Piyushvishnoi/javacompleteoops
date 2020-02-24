@@ -7,7 +7,7 @@ class stringvsstringbuildervsstringbuffer
     // Concatenates to String 
     public static void concat1(String s1)  //use of string
     { 
-        s1 = s1 + "forgeeks"; 
+        s1 = s1 + "forgeeks";  //here now s1 will be assigned with a new memory address to store new appended value
     } 
   
     // Concatenates to StringBuilder 
