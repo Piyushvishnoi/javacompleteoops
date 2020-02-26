@@ -1,19 +1,19 @@
 package javalabexp;
 import java.util.Scanner;
-interface test{
-	void square(Integer number);   //by default square is abstract
+interface test{    //defining interface
+	void square(Integer number);    //method is by default abstract 
 }
-class arithmetic implements test
+class arithmetic implements test     //implementing interface
 { public Integer number;
-	 public void square(Integer number).  //definition of abstract function
+	 public void square(Integer number)    //defining abstract method
 	{
 		System.out.println("Square of number is: "+number*number);
 	}
 }
-class totestint
+class totestint   //totestint class has-A relationship with arithmetic class
 {
 	arithmetic obj=new arithmetic();
-	totestint()
+	totestint()    //defining constructor
 	{ 
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter number: ");
