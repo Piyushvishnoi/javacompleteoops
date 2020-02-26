@@ -4,7 +4,7 @@ public class toidentifyvowel {
 
 	public static boolean vowel(char ch)
 	{
-		return "aeiouAEIOU".indexOf(ch)>=0;
+		return "aeiouAEIOU".indexOf(ch)>=0;   //return something if present in aeiou
 	}
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
