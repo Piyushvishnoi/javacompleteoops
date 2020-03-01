@@ -13,12 +13,12 @@ public class exp7que1  {
 		exp7 obj=new exp7();
 		for(int i=0;i<obj.name.length;i++)
 		{
-			try {
+			try {               //identification of error in try block
 				Scanner s=new Scanner(System.in);
 				obj.name[i]=s.nextLine();
 			}
 		
-		catch(ArrayIndexOutOfBoundsException e)
+		catch(ArrayIndexOutOfBoundsException e).  //catching the errors 
 		{
 			System.out.println("index is exceeding");
 		}
