@@ -8,11 +8,11 @@ class demoexception
 		Scanner s=new Scanner(System.in);
 		a=s.nextInt();
 		b=s.nextInt();
-		try {
+		try {.  //here it will throw exception 
 			int result=a/b;
 				
 		}
-		catch(ArithmeticException e){
+		catch(ArithmeticException e){.  //here we get answers to our exception
 			System.out.println("no to be divided with must be zero");
 		}
 		
