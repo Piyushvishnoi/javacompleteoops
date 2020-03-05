@@ -6,7 +6,7 @@ class employee{
 	public Integer salary;
 	employee()
 	{}
-	employee(String name,int empid,int salary)
+	employee(String name,int empid,int salary)   //parametrized constructor
 	{
 		this.name=name;
 		this.empid=empid;
@@ -30,7 +30,7 @@ System.out.println("Enter the percentage by which salary must be increased: ");
 	}
 	
 }
-class manager extends employee
+class manager extends employee   //extending employee class
 { public String department;
 	manager()
 	{
