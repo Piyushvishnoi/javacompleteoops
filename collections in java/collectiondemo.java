@@ -1,4 +1,6 @@
 //we cannot use index no in collection and arraylist
+// Before Collection Framework (or before JDK 1.2) was introduced, the standard methods for grouping Java objects (or collections) were Arrays or Vectors or Hashtables. 
+//All of these collections had no common interface.
 package collectionandgenerics;
 import java.util.ArrayList;  //package for ArrayList
 import java.util.Collection; //package for collection
