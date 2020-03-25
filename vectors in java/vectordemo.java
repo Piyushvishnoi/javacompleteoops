@@ -37,7 +37,7 @@ class Vector_demo {
         v.addAll(arr); 
   
         // checking vector v 
-        System.out.println("vector v:" + v); 
+        System.out.println("vector v:" + v);  
     } 
 }
 
