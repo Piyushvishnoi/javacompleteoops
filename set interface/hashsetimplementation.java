@@ -11,7 +11,7 @@ obj.add(2);
 obj.add(3);
 obj.add(4);
 obj.add(2);
-System.out.println(obj.add(2));
+System.out.println(obj.add(2));  //this willl result in false as copied value can't be in Set interface
 
 for(int i: obj)
 {
