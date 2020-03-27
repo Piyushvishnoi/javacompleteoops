@@ -1,5 +1,6 @@
 package setinterface;
 //In set interface values can't be repeated
+//HashSet will give the numbers in different orders every time
 import java.util.HashSet;
 import java.util.Set;
 
