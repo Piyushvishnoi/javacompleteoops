@@ -15,7 +15,7 @@ public class treeclassimplementation {
 		{
 			System.out.println(i);
 		}
-		TreeSet <Integer> obj1=new TreeSet<> (values); //here we get ordered values in ascending order
+		TreeSet <Integer> obj1=new TreeSet<> (values); //here we get ordered values in ascending order by default unlike in hashset
 		for(Integer i:obj1)
 		{
 			System.out.println(i);
