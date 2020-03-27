@@ -1,5 +1,5 @@
 package setinterface;
-
+//in treeset interface we get ordered data by default
 import java.util.Set;
 import java.util.TreeSet;
 
