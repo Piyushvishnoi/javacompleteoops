@@ -2,6 +2,7 @@ package setinterface;
 //List allows duplicates while Set doesn’t allow duplicate elements
 //Set is an unordered collection, it doesn’t maintain any order. 
 //There are few implementations of Set which maintains the order such as LinkedHashSet
+//set can be implemented by hashset and treeset
 import java.util.HashSet;
 import java.util.Set;
 
