@@ -1,5 +1,5 @@
 package mapinterface;
-
+//only difference between Hashtable and Hashmap implementation is that Hashtable is synchronised that is they are thread safe. 
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.Set;
