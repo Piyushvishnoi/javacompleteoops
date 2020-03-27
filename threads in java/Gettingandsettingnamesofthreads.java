@@ -43,7 +43,7 @@ public class Gettingandsettingnamesofthreads {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println(t1.isAlive());
+			System.out.println(t1.isAlive());   ///will give false as t2 thread already joined main thread
 			System.out.println("in main thread");
 	}
 }
