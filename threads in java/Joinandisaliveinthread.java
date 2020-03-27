@@ -31,14 +31,14 @@ public class Joinandisaliveinthread {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println(t2.isAlive());
+			System.out.println(t2.isAlive()); //this will give true because t2 still not joined in main thread
 			try {
 				t2.join();
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println(t1.isAlive());
+			System.out.println(t1.isAlive());  //this will give false because t1 joined in main thread
 			System.out.println("in main thread");
 	}
 }
