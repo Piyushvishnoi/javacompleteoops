@@ -8,7 +8,7 @@ import java.util.Collection; //package for collection
 public class collectiondemo {
 
 	public static void main(String[] args) {
-		Collection values=new ArrayList();
+		Collection values=new ArrayList();      //Collection is an interface
 	values.add(4);
 	values.add(2);
 	values.add(9);
