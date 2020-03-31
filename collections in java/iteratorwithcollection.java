@@ -8,7 +8,7 @@ import java.util.Iterator;
 public class iteratorwithcollection {
 
 	public static void main(String[] args) {
-		Collection values=new ArrayList();
+		Collection values=new ArrayList();   //Collection is an interface ArrayList will indirectly implement Collection
 		values.add(4);
 		values.add(2);
 		values.add(9);
