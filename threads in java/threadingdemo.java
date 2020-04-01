@@ -28,7 +28,7 @@ public class threadingdemo {
 		
 Hi obj1=new Hi();
 hello obj2=new hello();
-obj1.start();
+obj1.start();   //starting thread
 
 obj2.start();
 	}
