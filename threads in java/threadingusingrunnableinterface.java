@@ -3,7 +3,7 @@ package thread;
 //Runnable interface have only one method named run()
 class multi implements Runnable
 {
-	public void run()
+	public void run()  //implementing run method
 	{
 		System.out.println("Threading is done");
 	}
