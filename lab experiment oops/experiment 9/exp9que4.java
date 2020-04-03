@@ -1,4 +1,8 @@
 package javalabexp;
+//Priority for thread execution 
+//1- min priority
+//5- default priority
+//10- highest priority
 class que4 implements Runnable
 {
 	public synchronized void run()
@@ -17,7 +21,7 @@ public class exp9que4 {
 		Thread t4=new Thread(m);
 		Thread t5=new Thread(m);
 	t1.start();
-	t1.setPriority(5);
+	t1.setPriority(5);  //setting priority
 	t2.start();
 	t2.setPriority(10);
 	t3.start();
@@ -31,7 +35,7 @@ t2.setPriority(10);
 t3.setPriority(2);
 t4.setPriority(3);
 t5.setPriority(8); */
-System.out.println(t1.isAlive());
+System.out.println(t1.isAlive()); // checking whether the thread is alive or not
 System.out.println(t2.isAlive());
 	}
 
