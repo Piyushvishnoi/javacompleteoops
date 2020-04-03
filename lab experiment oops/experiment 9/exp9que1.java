@@ -1,6 +1,6 @@
 package javalabexp;
 
-
+//extending thread class
 class Hi extends Thread
 {
 	public void run()
@@ -31,6 +31,7 @@ obj1.start();
 obj2.start();
 	}
 }
+//Implementing runnable interface
 class multi implements Runnable
 {
 	public void run()
