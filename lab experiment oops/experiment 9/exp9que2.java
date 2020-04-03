@@ -1,6 +1,7 @@
 package javalabexp;
 class even extends Thread
 {
+//thread for printing even no
 	public void run()
 	{
 	for(Integer i=1;i<10;i++)
@@ -14,6 +15,7 @@ class even extends Thread
 }
 class odd extends Thread
 {
+//thread for printin oddvno
 	public void run()
 	{
 	for(Integer i=1;i<10;i++)
@@ -31,7 +33,7 @@ class experiment9  {
 		even obj1=new even();
 odd obj2=new odd();
 obj1.start();
-obj1.join();
+obj1.join();  //joining to main thread
 obj2.start();
 obj2.join();
 	}
