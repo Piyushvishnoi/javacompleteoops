@@ -5,13 +5,13 @@ import java.util.HashSet;
 public class exp9que7 {
 
 	public static void main(String[] args) {
-		HashSet<Integer> obj= new HashSet<>();
+		HashSet<Integer> obj= new HashSet<>();  //making object of HashSet
 obj.add(3);
-obj.add(2);
+obj.add(2);      //Adding values to HashSet
 obj.add(10);
 obj.add(1);
 HashSet newone=new HashSet();
-newone=(HashSet)obj.clone();
+newone=(HashSet)obj.clone();   //cloning a object in another new object of HashSet
 System.out.println(newone);
 //clearing all elements
 newone.clear();
