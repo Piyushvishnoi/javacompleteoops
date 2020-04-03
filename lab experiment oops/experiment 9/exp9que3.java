@@ -1,4 +1,5 @@
 package javalabexp;
+//Synchronisation will help in case when one thread will try to interfere in another thread's executioon
 class Counter1 
 { Integer count=0;
 	public  synchronized void increament()
@@ -11,7 +12,7 @@ public class exp9que3 {
 	public static void main(String[] args) throws Exception {
 		Counter1 c=new Counter1();
 		//Runnable obj1=new Runnable();
-		Thread t1=new Thread(new Runnable()
+		Thread t1=new Thread(new Runnable()   //implementing runnable for thread 1
 				{
 		
 				public void run()
@@ -24,7 +25,7 @@ public class exp9que3 {
 			
 				}
 				});
-		Thread t2=new Thread(new Runnable()
+		Thread t2=new Thread(new Runnable()   //implementing runnable for thread 2
 		{
 		public void run()
 		{
