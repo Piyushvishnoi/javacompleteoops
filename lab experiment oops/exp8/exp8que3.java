@@ -10,7 +10,7 @@ public class exp8que3 {
             
             //check valid alphabet and it is in lowercase
             if (s.charAt(i) >= 'a' && s.charAt(i) <= 'z') {
-                ch = (char)(s.charAt(i) - 32);
+                ch = (char)(s.charAt(i) - 32);    //here we are dealing with thw ascii values of characters in string
             }
             //else keep the same alphabet or any character
             else {
