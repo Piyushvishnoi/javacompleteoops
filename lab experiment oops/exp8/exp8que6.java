@@ -1,5 +1,5 @@
 package javalabexp;
-
+//conversion of float wrapper class to primitive type
 public class exp8que6 {
 	 
 		  public static void main(String[] args) {
