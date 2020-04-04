@@ -14,7 +14,7 @@ public class exp8que2 {
             else {
                 ch = (char)(s.charAt(i));
             }
-            
+            // this + concatenation sign can't be used with stringBuffer unlike in Strings
             result =result + ch; // concatenation, append c to result
         }
         return result;
