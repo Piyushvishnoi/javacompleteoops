@@ -1,5 +1,5 @@
 package javalabexp;
-
+//used argumnement as stringbuffer 
 public class exp8que2 {
     static String LowerToUpper(StringBuffer s) {
         String result = ("");
