@@ -4,7 +4,7 @@ class A
 {
 	A()
 	{
-		System.out.println("In base class default constructor");
+		System.out.println("In base class default constructor"); 
 	}
 	A(String name)
 	{
