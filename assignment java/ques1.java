@@ -1,5 +1,5 @@
 package assignmentoops;
-
+ 
 import java.util.Scanner;
 
 class Animal{
