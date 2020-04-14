@@ -4,7 +4,7 @@ package javaconversion;
 //using Integer.parseInt() method  
 public class stringtoint{  
 public static void main(String args[]){  
-//Declaring String variable  
+//Declaring String variable   
 String s="200";    
 //Converting String into int using Integer.parseInt()  
 int i=Integer.parseInt(s);  
