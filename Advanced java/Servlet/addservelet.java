@@ -14,7 +14,7 @@ public void service(HttpServletRequest req,HttpServletResponse res) throws IOExc
 	int i=Integer.parseInt(req.getParameter("num1"));
 	int j=Integer.parseInt(req.getParameter("num2"));
 	int k= i+j;
-	PrintWriter obj=res.getWriter();
+	PrintWriter obj=res.getWriter();  //PrintWriter is implemented through getWriter
 	obj.println("result is: "+k);
 	}
 }
