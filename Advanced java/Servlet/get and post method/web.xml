@@ -8,4 +8,4 @@
   <servlet-name>newservlet</servlet-name>
   <url-pattern>/multiply</url-pattern>
   </servlet-mapping>
-</web-app>
+</web-app> 
