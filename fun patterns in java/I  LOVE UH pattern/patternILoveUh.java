@@ -8,6 +8,7 @@ public class patternILoveUh {
 		{
 			for(int j=0;j<=4*n;j++)
 			{
+				//using math operator
 				double d1=Math.sqrt(Math.pow(i-n, 2)+Math.pow(j-n, 2));
 				double d2=Math.sqrt(Math.pow(i-n, 2)+Math.pow(j-3 * n, 2));
 				if(d1< n +0.5 || d2<n+0.5) {
