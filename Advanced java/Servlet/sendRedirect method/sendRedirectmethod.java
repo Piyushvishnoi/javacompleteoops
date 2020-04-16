@@ -14,6 +14,6 @@ public  void service(HttpServletRequest req,HttpServletResponse res) throws IOEx
 	int k=i+j;
 	PrintWriter obj=res.getWriter();
 	obj.println("Sum is: "+ k);
-	res.sendRedirect("sq?k="+k);
+	res.sendRedirect("sq?k="+k); //URl rewritting method
 }
 }
