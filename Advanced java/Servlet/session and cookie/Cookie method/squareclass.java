@@ -12,9 +12,9 @@ public class squareclass extends HttpServlet {
 	public  void service(HttpServletRequest req,HttpServletResponse res) throws IOException
 	{
 		int k=0;
-		Cookie cookies[]=req.getCookies();
-		for(Cookie c:cookies)
-		{
+		Cookie cookies[]=req.getCookies(); //making array object of cookie because we get several cookies from client
+		for(Cookie c:cookies)  //arrays are used because to choose our cookie we need this loop
+		{ 
 			if(c.getName().equals("k"))
 			{
 				k=Integer.parseInt(c.getValue());
