@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 public class squareclass extends HttpServlet {
 	public  void service(HttpServletRequest req,HttpServletResponse res) throws IOException
 	{
-	int k=Integer.parseInt(req.getParameter("k"));
+	int k=Integer.parseInt(req.getParameter("k")); //just recieving variable through req object
 	 k=k*k;
 	 PrintWriter obj=res.getWriter();
 		obj.println("Square is: "+ k);
