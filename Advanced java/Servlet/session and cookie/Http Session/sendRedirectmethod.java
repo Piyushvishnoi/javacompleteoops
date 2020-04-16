@@ -15,8 +15,8 @@ public  void service(HttpServletRequest req,HttpServletResponse res) throws IOEx
 	int k=i+j;
 	PrintWriter obj=res.getWriter();
 	obj.println("Sum is: "+ k);
-	HttpSession session=req.getSession();
-	session.setAttribute("k", k);
+	HttpSession session=req.getSession();  //making object of HttpSession class
+	session.setAttribute("k", k);    //setting attribute through session object
 	res.sendRedirect("sq");
 }
 }
