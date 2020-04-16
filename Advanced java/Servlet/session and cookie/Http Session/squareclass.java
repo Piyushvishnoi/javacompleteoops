@@ -11,9 +11,9 @@ import javax.servlet.http.HttpSession;
 public class squareclass extends HttpServlet {
 	public  void service(HttpServletRequest req,HttpServletResponse res) throws IOException
 	{
-		HttpSession session=req.getSession();
+		HttpSession session=req.getSession(); //making object of HttpSession class
 		
-	int k=(int)(session.getAttribute("k"));
+	int k=(int)(session.getAttribute("k"));   //getting attribute using session object 
 	 k=k*k;
 	 PrintWriter obj=res.getWriter();
 		obj.println("Square is: "+ k);
