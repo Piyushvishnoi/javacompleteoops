@@ -8,7 +8,7 @@
   <servlet-name>httpsession</servlet-name>
   <url-pattern>/add</url-pattern>
   </servlet-mapping>
-  <servlet>
+  <servlet> 
   <servlet-name>session</servlet-name>
   <servlet-class>newpackage.squareclass</servlet-class>
   </servlet>
