@@ -12,8 +12,8 @@ public class configandcontext extends HttpServlet {
 protected void service(HttpServletRequest req,HttpServletResponse res) throws IOException {
 	PrintWriter obj=res.getWriter();
 	obj.print("hi");
-	ServletConfig ctx=getServletConfig();
-	String str=ctx.getInitParameter("name");
+	ServletConfig ctx=getServletConfig();  //object made for ServletConfig 
+	String str=ctx.getInitParameter("name"); //used for particular Servlet
 	obj.println(str);
 	}
 }
