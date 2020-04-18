@@ -16,8 +16,8 @@ public static final long serialversionuid=1L;
 		try {
 			Thread.sleep(120);
 			Robot r=new Robot();
-			String path="/Users/piyushvishnoi/Desktop/screenshot/";
-			Rectangle capture=new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+			String path="/Users/piyushvishnoi/Desktop/screenshot/";  //to give path where screen shot must be stored
+			Rectangle capture=new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());  //in which shape screenshot must be storted
 			BufferedImage Image=r.createScreenCapture(capture);
 			ImageIO.write(Image,"jpg",new File(path));
 			System.out.println("Screenshot saved");
