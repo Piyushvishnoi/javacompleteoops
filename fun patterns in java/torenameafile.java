@@ -5,7 +5,7 @@ import java.io.File;
 public class torenameafile {
 
 	public static void main(String[] args) {
-		File oldfile=new File("of.txt");
+		File oldfile=new File("of.txt");   //making object of file class
 		File newfile=new File("nf.txt");
 		if(oldfile.renameTo(newfile))
 		{
