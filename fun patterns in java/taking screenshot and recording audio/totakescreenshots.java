@@ -13,7 +13,7 @@ import javax.imageio.ImageIO;
 public class totakescreenshots {
 public static final long serialversionuid=1L;
 	public static void main(String[] args) {
-		try {
+		try { 
 			Thread.sleep(120);
 			Robot r=new Robot();
 			String path="/Users/piyushvishnoi/Desktop/screenshot/";  //to give path where screen shot must be stored
