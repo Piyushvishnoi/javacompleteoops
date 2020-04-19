@@ -48,7 +48,7 @@ public class patternILoveUh {
 				System.out.print('*');
 			}
 		}
-		System.out.print(System.lineSeparator());
+		System.out.print(System.lineSeparator());   //using line seperator method
 
 	}
 	}
