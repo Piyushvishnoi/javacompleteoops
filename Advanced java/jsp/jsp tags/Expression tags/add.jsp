@@ -16,6 +16,11 @@ int j=Integer.parseInt(request.getParameter("num2"));
 int k=i+j;
 out.println("result is: "+k);
   %>
+    
+    <!-- 
+to print something outside service method or to replace out.println we use Expression tags(<%=  %>)
+-->
+    
   REsult is: <%= q %>
 </body>
 </html>
