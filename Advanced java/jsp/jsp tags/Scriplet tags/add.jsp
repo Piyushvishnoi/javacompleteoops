@@ -10,6 +10,7 @@
 </head>
 <body bgcolor="blue">
 <%! int q=2; %>
+    <!-- anything which is inside <% %> these tags will be converted to service method content once jsp gets converted to servlet-->
 <%
 int i=Integer.parseInt(request.getParameter("num1"));
 int j=Integer.parseInt(request.getParameter("num2"));
