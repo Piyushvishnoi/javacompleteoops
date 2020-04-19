@@ -1,3 +1,8 @@
+<!-- <%@ page import="headerfile name" %>
+directive tags are for the the file to be imported
+-->
+
+
 <%@page import="java.util.Scanner"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
