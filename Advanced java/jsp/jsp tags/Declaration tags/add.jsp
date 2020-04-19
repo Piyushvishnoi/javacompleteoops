@@ -9,6 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body bgcolor="blue">
+    <!-- anything which needs to be declared outside service method is in declaration (<%! %>) tags-->
 <%! int q=2; %>
 <%
 int i=Integer.parseInt(request.getParameter("num1"));
