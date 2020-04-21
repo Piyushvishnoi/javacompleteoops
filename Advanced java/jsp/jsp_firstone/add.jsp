@@ -14,5 +14,5 @@ int j=Integer.parseInt(request.getParameter("num2"));
 int k=i+j;
 out.println("result is: "+k);
   %>
-</body>
+</body> 
 </html> 
