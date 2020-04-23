@@ -15,8 +15,8 @@ public  void service(HttpServletRequest req,HttpServletResponse res) throws IOEx
 	int k=i+j;
 	PrintWriter obj=res.getWriter();
 	obj.println("Sum is: "+ k);
-	Cookie cookie=new Cookie("k",k+"");
+	Cookie cookie=new Cookie("k",k+""); //making new cookie so that value can be passed through one servlet to another
 	res.addCookie(cookie);
-	res.sendRedirect("sq");
+	res.sendRedirect("sq");  //calling square servlet 
 }
 }
