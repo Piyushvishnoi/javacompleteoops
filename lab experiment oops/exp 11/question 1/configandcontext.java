@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class configandcontext extends HttpServlet {
 protected void service(HttpServletRequest req,HttpServletResponse res) throws IOException {
 	PrintWriter obj=res.getWriter();
-	String values[]=req.getParameterValues("num1");
+	String values[]=req.getParameterValues("num1");   //array is used to get multiple values
 	int addition=0;
 	for(int i=0;i<values.length;i++)
 	{
@@ -19,7 +19,7 @@ protected void service(HttpServletRequest req,HttpServletResponse res) throws IO
 	}
 	obj.println("addition is: "+addition);
 	obj.print("organization name: ");
-	ServletContext ctx=getServletContext();
+	ServletContext ctx=getServletContext(); //object of ServletContext
 	String str=ctx.getInitParameter("name");
 	obj.println(str);
 	obj.print("Author's name: ");
