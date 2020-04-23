@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>servlet_config_and_context</display-name>
+  <servlet>
+  <servlet-name>configandcontextservlet</servlet-name>
+  <servlet-class>newpackage.configandcontext</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>configandcontextservlet</servlet-name>
+  <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  <context-param>
+  <param-name>name</param-name>
+  <param-value>University of Petroleum and energy Studies</param-value>
+  </context-param>
+  <context-param>
+   <param-name>authorname</param-name>
+  <param-value>Pushpendra Kumar Rajput</param-value>
+  </context-param>
+</web-app>
