@@ -12,7 +12,7 @@ public class squareclass extends HttpServlet {
 	public  void service(HttpServletRequest req,HttpServletResponse res) throws IOException
 	{
 		int k=0;
-		Cookie cookies[]=req.getCookies();
+		Cookie cookies[]=req.getCookies();  //recieving cookies from first servlet 
 		for(Cookie c:cookies)
 		{
 			if(c.getName().equals("k"))
