@@ -13,7 +13,7 @@ public class currentdateandtimeservlet extends GenericServlet{
 	{
 	res.setContentType("text/html");
 	PrintWriter obj=res.getWriter();
-	java.util.Date date = new java.util.Date();
+	java.util.Date date = new java.util.Date(); //used java.util.date header file
     obj.println("<h2>"+"Current Date & Time: " +date.toString()+"</h2>");
   obj.close();
 	}
