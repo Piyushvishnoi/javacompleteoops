@@ -3,7 +3,7 @@
   <servlet> 
   <servlet-name>newservlet</servlet-name>
   <servlet-class>newpackage.multiplyservletgetandpost</servlet-class>
-  </servlet>
+  </servlet> 
   <servlet-mapping>
   <servlet-name>newservlet</servlet-name>
   <url-pattern>/multiply</url-pattern>
