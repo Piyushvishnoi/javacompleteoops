@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class calculator {
-
+ 
 	private JFrame frame;
 	private JTextField textFieldnum1;
 	private JTextField textFieldnum2;
