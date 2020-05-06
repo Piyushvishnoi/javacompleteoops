@@ -129,6 +129,7 @@ public class numbersystem {
 		JButton button4 = new JButton("decimal");
 		button4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				//adding toString function
 				int num;
 				String ans;
 				num=Integer.parseInt(textField1.getText());
