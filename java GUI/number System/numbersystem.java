@@ -87,6 +87,7 @@ public class numbersystem {
 		JButton button1 = new JButton("Binary");
 		button1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				//adding toBinaryString function 
 				int num;
 				String ans;
 				num=Integer.parseInt(textField1.getText());
