@@ -30,6 +30,6 @@ public class constructorchaininginjava {
     public static void main(String args[]) 
     { 
         // invokes default const ructor first 
-        new constructorchaininginjava(); 
+        new constructorchaininginjava();  
     } 
 } 
