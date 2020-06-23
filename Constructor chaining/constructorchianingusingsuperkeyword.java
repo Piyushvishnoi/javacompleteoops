@@ -1,7 +1,7 @@
 //Constructor chaining using super  keyword
 public class constructorchianingusingsuperkeyword {
 class A
-{
+{ 
 	A()
 	{
 		System.out.println("In base class default constructor"); 
