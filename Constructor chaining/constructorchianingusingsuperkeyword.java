@@ -6,7 +6,7 @@ class A
 	{
 		System.out.println("In base class default constructor"); 
 	}
-	A(String name)
+	A(String name) 
 	{
 		System.out.println("In base class parametrized constructor");
 	}
