@@ -10,7 +10,7 @@ class A
 	{
 		System.out.println("In base class parametrized constructor");
 	}
-	}
+} 
 class B extends A
 {
 B()
