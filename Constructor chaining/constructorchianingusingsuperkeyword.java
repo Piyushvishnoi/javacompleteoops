@@ -26,6 +26,6 @@ B(String name)
 		B b=new B("Piyush");
 
 	} 
-
+ 
 }
  
