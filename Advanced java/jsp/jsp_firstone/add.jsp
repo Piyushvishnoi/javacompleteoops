@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title> 
 </head> 
-<body bgcolor="blue">
+<body bgcolor="blue"> 
     <!-- <% %>  these tags are for java program to run in midst of html-->
 <%
 int i=Integer.parseInt(request.getParameter("num1"));
