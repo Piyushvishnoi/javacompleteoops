@@ -5,7 +5,7 @@
 <head>  
 <meta charset="UTF-8">
 <title>Insert title here</title> 
-</head>
+</head> 
 <body bgcolor="blue">
     <!-- <% %>  these tags are for java program to run in midst of html-->
 <%
