@@ -58,8 +58,6 @@ public class ques1 {
 		Animal[] obj1=new Animal[noofanimals];
 		for(int i=0;i<noofanimals;i++)
 		obj[i].addAnimal(obj1[i]);
-		
-
-	}
+		}
 
 }
