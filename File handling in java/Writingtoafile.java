@@ -9,7 +9,7 @@ public class Writingtoafile {
 try
 { 
 	FileWriter obj=new FileWriter("File1.txt");
-	obj.write("I am mad");
+	obj.write("I am mad"); 
 	obj.close();
 	System.out.println("Successfully written to a file");
 }
