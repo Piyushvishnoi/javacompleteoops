@@ -2,7 +2,7 @@ package assignmentoops;
  
 import java.util.Scanner;
 
-class Animal{
+class Animal{ 
 	String name;
 	Integer age;
 	String type;
