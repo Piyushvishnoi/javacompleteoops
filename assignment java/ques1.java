@@ -8,7 +8,7 @@ class Animal{
 	String type;
 	Animal()
 	{
-		System.out.println("Enter the name of the animal: ");
+		System.out.println("Enter the name of the animal: "); 
 		Scanner s=new Scanner(System.in);
 		name=s.nextLine();
 		age=s.nextInt();
