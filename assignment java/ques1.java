@@ -17,7 +17,7 @@ class Animal{
 	{
 		return name;
 	}
-	Integer getAge()
+	Integer getAge() 
 	{
 		return age;
 	}
