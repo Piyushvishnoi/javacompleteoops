@@ -6,7 +6,7 @@ class Animal{
 	String name;
 	Integer age;
 	String type; 
-	Animal()
+	Animal() 
 	{
 		System.out.println("Enter the name of the animal: "); 
 		Scanner s=new Scanner(System.in);
