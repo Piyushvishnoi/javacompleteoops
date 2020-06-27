@@ -8,7 +8,7 @@ public class Writingtoafile {
 	public static void main(String[] args) { 
 try
 { 
-	FileWriter obj=new FileWriter("File1.txt");
+	FileWriter obj=new FileWriter("File1.txt"); 
 	obj.write("I am mad"); 
 	obj.close();
 	System.out.println("Successfully written to a file");
