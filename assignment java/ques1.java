@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Animal{  
 	String name; 
-	Integer age; 
+	Integer age;  
 	String type; 
 	Animal() 
 	{
