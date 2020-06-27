@@ -5,7 +5,7 @@ import java.io.IOException;
   
 public class Writingtoafile {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 try
 {
 	FileWriter obj=new FileWriter("File1.txt");
