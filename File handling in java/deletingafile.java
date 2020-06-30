@@ -1,6 +1,6 @@
 package filehandling;
  
-import java.io.File;
+import java.io.File; 
 
 public class deletingafile {
 
