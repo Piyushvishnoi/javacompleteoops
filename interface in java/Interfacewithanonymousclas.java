@@ -1,6 +1,6 @@
 package tutorial;
 interface demo
-{
+{ 
 	void show();  
 }
 public class Interfacewithanonymousclas { 
