@@ -2,7 +2,7 @@ package tutorial;
 interface demo
 { 
 	void show();  
-}
+} 
 public class Interfacewithanonymousclas { 
 
 	public static void main(String[] args) {
