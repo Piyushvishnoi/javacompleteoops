@@ -3,7 +3,7 @@ interface demo
 {
 	void show(); 
 }
-public class Interfacewithanonymousclas {
+public class Interfacewithanonymousclas { 
 
 	public static void main(String[] args) {
 		demo d=new demo()     // we cannot make object of interface but using anonymous class we can make its object
