@@ -7,7 +7,7 @@ public class commandlinecalculator {
 		String operator=args[1];
 		Integer no2=Integer.parseInt(args[2]);
 		Integer op=0;
-		if(operator.contentEquals("+"))   //content equals is used to equate any character
+		if(operator.contentEquals("+"))   //content equals is used to equate any character 
 			op=no1+no2;
 		if(operator.contentEquals("*"))
 			op=no1*no2;
