@@ -9,7 +9,7 @@ public class commandlinecalculator {
 		Integer op=0;
 		if(operator.contentEquals("+"))   //content equals is used to equate any character 
 			op=no1+no2;
-		if(operator.contentEquals("*"))
+		if(operator.contentEquals("*")) 
 			op=no1*no2;
 		if(operator.contentEquals("-"))
 			op=no1-no2;
