@@ -3,7 +3,7 @@ package labexperiment4thsem;
 public class commandlinecalculator {
 
 	public static void main(String[] args) throws Exception {
-		Integer no1=Integer.parseInt(args[0]);
+		Integer no1=Integer.parseInt(args[0]); 
 		String operator=args[1];
 		Integer no2=Integer.parseInt(args[2]);
 		Integer op=0;
