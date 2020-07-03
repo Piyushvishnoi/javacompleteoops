@@ -2,7 +2,7 @@ package innerclassandinterface;
 class outerclass1
 {
 	void show()
-	{
+	{ 
 		System.out.println("in show method of outer class");
 	}
 }
