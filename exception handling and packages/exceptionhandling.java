@@ -13,7 +13,7 @@ catch(Exception e)   //catch is used to handle that exception which is found in 
 {
 	System.out.println("error");
 }
-finally
+finally //this will execute either exception occurs or not
 {
 	System.out.println("try catch executed");
 }
