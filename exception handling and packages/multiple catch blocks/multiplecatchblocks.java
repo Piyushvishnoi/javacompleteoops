@@ -15,7 +15,7 @@ public class multiplecatchblocks {
 		{
 			System.out.println("Index out of bound");
 		}
-		catch(Exception e)
+		catch(Exception e) //common exception
 		{
 			System.err.println("Something is wrong"); //err is for red colour print on output window
 		}
