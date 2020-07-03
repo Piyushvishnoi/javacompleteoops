@@ -17,7 +17,7 @@ public class multiplecatchblocks {
 		}
 		catch(Exception e)
 		{
-			System.err.println("Something is wrong");
+			System.err.println("Something is wrong"); //err is for red colour print on output window
 		}
 	}
 }
