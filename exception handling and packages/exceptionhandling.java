@@ -9,7 +9,7 @@ try  //exception part will be in this try block
 	int j=0;
 	int k=i/j;
 }
-catch(Exception e)   //catch is used to handle that exception which is found in try block
+catch(Exception e)   //catch is used to handle that exception which is found in try block //here we can even use arithmetic exception
 {
 	System.out.println("error");
 }
