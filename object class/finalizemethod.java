@@ -9,7 +9,7 @@ public class finalizemethod {
 	System.out.println(obj1.hashCode()); 
 	obj1=null;
 	//calling garbage collector
-	System.gc();
+	System.gc(); 
 	
 	System.out.println("End");
 	}
