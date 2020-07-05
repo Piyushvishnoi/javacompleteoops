@@ -5,7 +5,7 @@ public class constructorchaininginjava {
      
     // default constructor 1     
     // default constructor will call another constructor 
-    // using this keyword from same class   
+    // using this keyword from same class    
 	constructorchaininginjava()    
     {   
         // calls constructor 2    
