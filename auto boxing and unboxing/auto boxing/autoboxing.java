@@ -8,7 +8,7 @@ public class autoboxing {
 		if(i==j)    //here address refered are different in both type of declaration of i and j
 		{
 			System.out.println("Same");
-		}
+		} 
 		
 		else
 		{
