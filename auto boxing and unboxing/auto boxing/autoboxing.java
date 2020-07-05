@@ -4,7 +4,7 @@ public class autoboxing {
 
 	public static void main(String[] args) {
 		Integer i=2;     
-		Integer j=new Integer(2);  
+		Integer j=new Integer(2);   
 		if(i==j)    //here address refered are different in both type of declaration of i and j
 		{
 			System.out.println("Same");
