@@ -1,7 +1,7 @@
 //Constructor chainig can be done in two ways:
 //1: by using this keyword 
 //2:by using super() keyword  
-public class constructorchaininginjava {   
+public class constructorchaininginjava {    
      
     // default constructor 1     
     // default constructor will call another constructor 
