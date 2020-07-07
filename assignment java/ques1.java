@@ -1,6 +1,6 @@
 package assignmentoops;
  
-import java.util.Scanner; 
+import java.util.Scanner;  
 
 class Animal{  
 	String name;  
