@@ -1,5 +1,5 @@
 package exception;
-class myexception extends Exception{
+class myexception extends Exception{ 
 	myexception(String s){ 
 	super(s);	
 	}
