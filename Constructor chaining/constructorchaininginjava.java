@@ -9,7 +9,7 @@ public class constructorchaininginjava {
 	constructorchaininginjava()     
     {     
         // calls constructor 2    
-        this(5); 
+        this(5);  
         System.out.println("The Default constructor"); 
     }  
   
