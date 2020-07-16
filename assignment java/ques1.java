@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Animal{  
 	String name;    
 	Integer age;  
-	String type; 
+	String type;  
 	Animal() 
 	{
 		System.out.println("Enter the name of the animal: "); 
