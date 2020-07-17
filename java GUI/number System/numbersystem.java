@@ -138,7 +138,7 @@ public class numbersystem {
 				textField2.setText(ans);
 			}
 		});
-		button4.setFont(new Font("Lucida Grande", Font.PLAIN, 24));
+		button4.setFont(new Font("Lucida Grande", Font.PLAIN, 24)); 
 		button4.setBounds(25, 115, 133, 43);
 		panel.add(button4);
 	}
