@@ -1,7 +1,7 @@
 package filehandling; 
 import java.io.File;
 import java.io.IOException;
-public class creatingfile {
+public class creatingfile { 
 
 	public static void main(String[] args) { 
 		try 
