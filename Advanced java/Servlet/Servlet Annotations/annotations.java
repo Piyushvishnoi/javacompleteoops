@@ -5,7 +5,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-@WebServlet("/add")   //annotations used instead of using web.xml configuration file
+@WebServlet("/add")   //annotations used instead of using web.xml configuration file 
 public class annotations extends HttpServlet {
 	public void doPost(HttpServletRequest req,HttpServletResponse res) throws IOException
 	{
