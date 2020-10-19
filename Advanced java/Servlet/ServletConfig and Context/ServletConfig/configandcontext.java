@@ -1,6 +1,6 @@
 package newpackage;
 //also have an application object in jsp
-import java.io.IOException; 
+import java.io.IOException;  
 import java.io.PrintWriter; 
 
 import javax.servlet.ServletConfig;
