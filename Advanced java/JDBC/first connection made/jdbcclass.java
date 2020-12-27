@@ -26,9 +26,3 @@ public class jdbcclass {
 	}
 
 }
-  
-   
- 
-  
- 
- 
