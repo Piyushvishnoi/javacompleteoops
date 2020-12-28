@@ -1,7 +1,7 @@
 package jdbctutorial; 
 //Step 1: importing packages    
 import java.sql.Connection;      
-import java.sql.DriverManager;        
+import java.sql.DriverManager;         
 import java.sql.ResultSet;      
 import java.sql.Statement;           
 public class jdbcclass {  
