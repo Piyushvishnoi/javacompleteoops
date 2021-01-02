@@ -9,7 +9,7 @@ public class jdbcclass {
 	{  
 		//Step 2: Registering JDBC drivers
 		Class.forName("com.mysql.jdbc.Driver");
-		//Step 3: Database url formation
+		//Step 3: Database url formation 
 		Connection conn=DriverManager.getConnection("jdbc:mysql:///Db1","root","2338");
 		//step 4:Statement preperation 
 		Statement st=conn.createStatement();
