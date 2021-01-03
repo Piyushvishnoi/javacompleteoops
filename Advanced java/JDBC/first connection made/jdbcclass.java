@@ -24,6 +24,6 @@ public class jdbcclass {
 		st.close();
 		conn.close();
 	} 
- 
+  
 }
  
