@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class jdbcclass {   
 	public static void main(String[] args) throws Exception  
 	{  
-		//Step 2: Registering JDBC drivers 
+		//Step 2: Registering JDBC drivers  
 		Class.forName("com.mysql.jdbc.Driver");  
 		//Step 3: Database url formation 
 		Connection conn=DriverManager.getConnection("jdbc:mysql:///Db1","root","2338");
