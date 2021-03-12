@@ -1,5 +1,5 @@
 package jdbctutorial;     
-//Step 1: importing packages         
+//Step 1: importing packages          
 import java.sql.Connection;                 
 import java.sql.DriverManager;                     
 import java.sql.ResultSet;             
