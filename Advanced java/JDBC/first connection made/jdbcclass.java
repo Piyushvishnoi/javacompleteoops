@@ -23,7 +23,7 @@ public class jdbcclass {
 		rs.close();
 		st.close();
 		conn.close();
-	} 
+	}  
   
 }
  
