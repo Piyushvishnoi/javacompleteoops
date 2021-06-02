@@ -17,7 +17,7 @@ public class queuesinjava {
 	int objrem=obj.remove();
 	System.out.println("removed head element is: "+objrem);
 	//after removing queue is
-	System.out.println("after removing an element queue is: "+obj);
+	System.out.println("after removing an element queue is: "+obj); 
 	//to view what is on the head of queue
 	int objhead=obj.peek();
 	System.out.println("what is on the head of queue: "+ objhead);
