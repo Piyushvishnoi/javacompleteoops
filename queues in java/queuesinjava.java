@@ -6,7 +6,7 @@ public class queuesinjava {
  
 	public static void main(String[] args) {
 	Queue <Integer> obj=new LinkedList<>();
-	for(Integer i=0;i<5;i++)  
+	for(Integer i=0;i<5;i++)   
 	{ 
 		obj.add(i);
 		
