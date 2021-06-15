@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;                                
 import java.sql.ResultSet;                                 
 import java.sql.Statement;                       
-public class jdbcclass {            
+public class jdbcclass {             
 	public static void main(String[] args) throws Exception          
 	{  
 		//Step 2: Registering JDBC drivers  
