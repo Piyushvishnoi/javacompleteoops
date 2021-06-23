@@ -7,3 +7,4 @@ String s="hello";
 int i=Integer.parseInt(s);      
 System.out.println(i);   
 }} 
+ 
